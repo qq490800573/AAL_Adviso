@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/introFragment">
+
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.iitp.signagekiosk.intro.IntroFragment"
+        android:label="fragment_intro"
+        tools:layout="@layout/fragment_intro">
+        <action
+            android:id="@+id/action_introFragment_to_guideFragment"
+            app:destination="@id/loadingFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/questionnaireFragment"
+        android:name="com.iitp.signagekiosk.questionnaire.QuestionnaireFragment"
+        android:label="QuestionnaireFragment"
+        tools:layout="@layout/fragment_questionnaire">
+        <action
+            android:id="@+id/action_questionnaireFragment_to_emergencyDialog"
+            app:destination="@id/emergencyDialog" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_introFragment"
+        app:destination="@id/introFragment"
+        app:popUpTo="@+id/introFragment"
+        app:popUpToInclusive="true" />
+    <fragment
+        android:id="@+id/loadingFragment"
+        android:name="com.iitp.signagekiosk.loading.LoadingFragment"
+        android:label="GuideFragment"
+        tools:layout="@layout/fragment_loading">
+        <action
+            android:id="@+id/action_guideFragment_to_guideDialog"
+            app:destination="@id/guideDialog" />
+        <action
+            android:id="@+id/action_guideFragment_to_questionnaireFragment"
+            app:destination="@id/questionnaireFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/guideDialog"
+        android:name="com.iitp.signagekiosk.guide.GuideDialog"
+        android:label="GuideDialog"
+        tools:layout="@layout/dialog_guide" />
+    <dialog
+        android:id="@+id/emergencyDialog"
+        android:name="com.iitp.signagekiosk.emergency.EmergencyDialog"
+        android:label="EmergencyDialog"
+        tools:layout="@layout/dialog_emergency">
+        <argument
+            android:name="text"
+            android:defaultValue=""
+            app:argType="string" />
+    </dialog>
+    <dialog
+        android:id="@+id/disconnectionDialog"
+        android:name="com.iitp.signagekiosk.DisconnectionDialog"
+        android:label="DisconnectionDialog"
+        tools:layout="@layout/dialog_disconnection">
+        <argument
+            android:name="connection"
+            app:argType="com.iitp.signagekiosk.ConnectionStatus" />
+    </dialog>
+    <action
+        android:id="@+id/action_global_disconnectionDialog"
+        app:destination="@id/disconnectionDialog"
+        app:launchSingleTop="true" />
+</navigation>

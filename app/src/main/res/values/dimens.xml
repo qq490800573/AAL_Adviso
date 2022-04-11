@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chat_bubble_corners">6dp</dimen>
+    <dimen name="talk_bubble_tail">15dp</dimen>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+    <action
+        android:id="@+id/global_action_to_start"
+        app:destination="@id/startFragment"
+        app:popUpTo="@id/startFragment"
+        app:popUpToInclusive="true" />
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.iitp.signage.start.StartFragment"
+        android:label="start_fragment"
+        tools:layout="@layout/start_fragment">
+        <action
+            android:id="@+id/action_startFragment_to_questionnaireFragment"
+            app:destination="@id/questionnaireFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionnaireFragment"
+        android:name="com.iitp.signage.questionnaire.QuestionnaireFragment"
+        android:label="questionnaire_fragment"
+        tools:layout="@layout/questionnaire_fragment">
+        <action
+            android:id="@+id/action_questionnaireFragment_to_symptomsFragment"
+            app:destination="@id/symptomsFragment" />
+        <action
+            android:id="@+id/action_questionnaireFragment_to_resultAbnormalFragment"
+            app:destination="@id/resultAbnormalFragment"
+            app:popUpTo="@id/startFragment" />
+        <action
+            android:id="@+id/action_questionnaireFragment_to_resultNormalFragment"
+            app:destination="@id/resultNormalFragment"
+            app:popUpTo="@id/startFragment" />
+        <argument
+            android:name="testType"
+            android:defaultValue="NONE"
+            app:argType="com.iitp.saltlux_talkbot.TalkBot$AutoAnswerMode" />
+    </fragment>
+    <dialog
+        android:id="@+id/symptomsFragment"
+        android:name="com.iitp.signage.dialog.SymptomsFragment"
+        android:label="fragment_symptoms"
+        tools:layout="@layout/fragment_symptoms">
+        <argument
+            android:name="text"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="false" />
+    </dialog>
+    <fragment
+        android:id="@+id/resultAbnormalFragment"
+        android:name="com.iitp.signage.result.ResultAbnormalFragment"
+        android:label="result_abnormal_fragment"
+        tools:layout="@layout/result_abnormal_fragment">
+        <argument
+            android:name="text"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultNormalFragment"
+        android:name="com.iitp.signage.result.ResultNormalFragment"
+        android:label="result_normal_fragment"
+        tools:layout="@layout/result_normal_fragment" />
+</navigation>

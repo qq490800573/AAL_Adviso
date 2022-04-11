@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SignageDemo</string>
+    <string name="test_button_normal">정상종료 테스트</string>
+    <string name="test_button_abnormal">비정상종료 테스트</string>
+</resources>

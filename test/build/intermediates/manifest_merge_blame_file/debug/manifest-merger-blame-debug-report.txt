@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iitp.signagekiosk"
+4    android:versionCode="1"
+5    android:versionName="0.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:saltlux-talkbot] C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\saltlux-talkbot\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+13-->[:saltlux-talkbot] C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\saltlux-talkbot\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[:saltlux-talkbot] C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\saltlux-talkbot\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
+14-->[:saltlux-talkbot] C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\saltlux-talkbot\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-64
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->[:saltlux-talkbot] C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\saltlux-talkbot\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-71
+15-->[:saltlux-talkbot] C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\saltlux-talkbot\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-68
+16
+17    <application
+17-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:8:5-36:19
+18        android:name="com.iitp.signagekiosk.SignageKioskApplication"
+18-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:9:9-48
+19        android:allowBackup="false"
+19-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:10:9-36
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0-rc01] C:\Users\49080\.gradle\caches\transforms-3\697b6a63cdf3b386dea89975dbbaad0c\transformed\core-1.5.0-rc01\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:11:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:12:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:13:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:14:9-35
+27        android:theme="@style/Theme.Signage"
+27-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:15:9-45
+28        android:usesCleartextTraffic="true" >
+28-->[:saltlux-talkbot] C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\saltlux-talkbot\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:18-53
+29        <activity
+29-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:16:9-25:20
+30            android:name="com.iitp.signagekiosk.MainActivity"
+30-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:17:13-41
+31            android:exported="true"
+31-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:18:13-36
+32            android:screenOrientation="sensorLandscape" >
+32-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:19:13-56
+33            <intent-filter>
+33-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:20:13-24:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:21:17-69
+34-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:21:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:23:17-77
+36-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:23:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:26:9-35:20
+40            android:name="com.iitp.signagekiosk.vital_sensor.SensorActivity"
+40-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:28:13-56
+41            android:exported="true"
+41-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:30:13-36
+42            android:parentActivityName="com.iitp.signagekiosk.MainActivity"
+42-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:29:13-55
+43            android:screenOrientation="sensorLandscape"
+43-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:31:13-56
+44            android:theme="@style/Theme.AppCompat.Light" >
+44-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:27:13-57
+45            <meta-data
+45-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:32:13-34:49
+46                android:name="android.support.PARENT_ACTIVITY"
+46-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:33:17-63
+47                android:value=".MainActivity" />
+47-->C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\appkiosk\src\main\AndroidManifest.xml:34:17-46
+48        </activity>
+49        <activity
+49-->[:saltlux-talkbot] C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\saltlux-talkbot\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-16:58
+50            android:name="com.iitp.saltlux_talkbot.demo.DemoActivity"
+50-->[:saltlux-talkbot] C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\saltlux-talkbot\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-70
+51            android:screenOrientation="sensorPortrait" />
+51-->[:saltlux-talkbot] C:\Users\49080\AndroidStudioProjects\Signage_radar_APP\saltlux-talkbot\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-55
+52
+53        <uses-library
+53-->[androidx.window:window:1.0.0-alpha09] C:\Users\49080\.gradle\caches\transforms-3\303dea7bd5bd0e3e296f37da73736713\transformed\window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
+54            android:name="androidx.window.extensions"
+54-->[androidx.window:window:1.0.0-alpha09] C:\Users\49080\.gradle\caches\transforms-3\303dea7bd5bd0e3e296f37da73736713\transformed\window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+55            android:required="false" />
+55-->[androidx.window:window:1.0.0-alpha09] C:\Users\49080\.gradle\caches\transforms-3\303dea7bd5bd0e3e296f37da73736713\transformed\window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
+56        <uses-library
+56-->[androidx.window:window:1.0.0-alpha09] C:\Users\49080\.gradle\caches\transforms-3\303dea7bd5bd0e3e296f37da73736713\transformed\window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
+57            android:name="androidx.window.sidecar"
+57-->[androidx.window:window:1.0.0-alpha09] C:\Users\49080\.gradle\caches\transforms-3\303dea7bd5bd0e3e296f37da73736713\transformed\window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
+58            android:required="false" />
+58-->[androidx.window:window:1.0.0-alpha09] C:\Users\49080\.gradle\caches\transforms-3\303dea7bd5bd0e3e296f37da73736713\transformed\window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
+59
+60        <provider
+60-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\49080\.gradle\caches\transforms-3\b920dbf129dc089992f5c3cab4ba866e\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+61            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\49080\.gradle\caches\transforms-3\b920dbf129dc089992f5c3cab4ba866e\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+62            android:authorities="com.iitp.signagekiosk.lifecycle-process"
+62-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\49080\.gradle\caches\transforms-3\b920dbf129dc089992f5c3cab4ba866e\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+63            android:exported="false"
+63-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\49080\.gradle\caches\transforms-3\b920dbf129dc089992f5c3cab4ba866e\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+64            android:multiprocess="true" />
+64-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\49080\.gradle\caches\transforms-3\b920dbf129dc089992f5c3cab4ba866e\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+65    </application>
+66
+67</manifest>

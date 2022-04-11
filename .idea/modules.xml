@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Signage.iml" filepath="$PROJECT_DIR$/.idea/modules/Signage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Signage.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Signage.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appkiosk/Signage.appkiosk.iml" filepath="$PROJECT_DIR$/.idea/modules/appkiosk/Signage.appkiosk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Signage.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/Signage.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/saltlux-talkbot/Signage.saltlux-talkbot.iml" filepath="$PROJECT_DIR$/.idea/modules/saltlux-talkbot/Signage.saltlux-talkbot.iml" />
+    </modules>
+  </component>
+</project>

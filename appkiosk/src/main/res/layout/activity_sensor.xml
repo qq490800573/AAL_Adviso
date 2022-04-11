@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".vital_sensor.SensorActivity">
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="FragmentActivity"
+            type="com.iitp.signagekiosk.vital_sensor.SensorActivity" />
+        <variable
+            name="viewModel"
+            type="com.iitp.signagekiosk.questionnaire.QuestionnaireViewModel" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_card_view_border">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/title_container"
+            android:layout_width="563dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/premier_league"
+                android:text="@string/title"
+                android:textColor="@color/navy"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/subtitle"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/left_bar"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:background="@color/pale_grey"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="60dp"
+                android:contentDescription="@string/empty_description"
+                android:src="@drawable/gachon_logo2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="24dp"
+                android:contentDescription="@string/empty_description"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:src="@drawable/ic_sensors"
+                app:layout_constraintBottom_toTopOf="@+id/imageView6"
+                app:layout_constraintEnd_toEndOf="@+id/imageView6"
+                app:layout_constraintStart_toStartOf="@+id/imageView6" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="24dp"
+                android:contentDescription="@string/empty_description"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:src="@drawable/monitor"
+                app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintStart_toStartOf="@+id/imageView5" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="60dp"
+                android:contentDescription="@string/empty_description"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:src="@drawable/ic_home"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="1194dp"
+            android:layout_height="427dp"
+
+            app:layout_constraintBottom_toTopOf="@+id/chart"
+            app:layout_constraintStart_toEndOf="@+id/left_bar">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="sans-serif"
+                android:text="비접촉 생체 센서 모니터링"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="555dp"
+                android:layout_height="332dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+                <FrameLayout
+                    android:id="@+id/frameLayout7"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/bg_sensor_box"
+                    app:layout_constraintBottom_toTopOf="@+id/frameLayout6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_chainStyle="spread_inside">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="68dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/empty_description"
+                        android:src="@drawable/ic_temperature" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/temperature"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/frameLayout7"
+                    app:layout_constraintStart_toEndOf="@+id/frameLayout7"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout7" />
+
+                <TextView
+                    android:id="@+id/textView1212"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="44sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView12"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView7"
+                    app:layout_constraintTop_toTopOf="@+id/textView12"
+                    tools:text="36.9" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="21dp"
+                    android:layout_height="27dp"
+                    android:layout_marginEnd="30dp"
+                    android:contentDescription="@string/empty_description"
+                    android:src="@drawable/ic_temp_unit"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView12"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout6"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/bg_sensor_box"
+                    app:layout_constraintBottom_toTopOf="@+id/frameLayout8"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout7">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="68dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/empty_description"
+                        android:src="@drawable/ic_respiration" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/respiration"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/frameLayout6"
+                    app:layout_constraintStart_toEndOf="@+id/frameLayout7"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout6" />
+
+                <TextView
+                    android:id="@+id/textView151"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="44sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView13"
+                    app:layout_constraintEnd_toStartOf="@+id/textView15"
+                    app:layout_constraintTop_toTopOf="@+id/textView13"
+                    tools:text="95" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/rpm_unit"
+                    android:textColor="@color/dusk"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView13"
+                    app:layout_constraintStart_toStartOf="@+id/imageView7" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout8"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/bg_sensor_box"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout6">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="68dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/empty_description"
+                        android:src="@drawable/ic_heart_rate" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/heart_rate"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="34sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/frameLayout8"
+                    app:layout_constraintStart_toEndOf="@+id/frameLayout7"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout8" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="44sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView14"
+                    app:layout_constraintEnd_toStartOf="@+id/textView17"
+                    app:layout_constraintTop_toTopOf="@+id/textView14"
+                    tools:text="100" />
+
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/bpm_unit"
+                    android:textColor="@color/dusk"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView14"
+                    app:layout_constraintStart_toStartOf="@+id/textView15" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="602dp"
+                android:layout_height="331dp"
+                android:layout_marginStart="588dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                app:layout_constraintVertical_bias="0.0">
+
+                <FrameLayout
+                    android:id="@+id/frameLayout82"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="110dp"
+                    android:background="@drawable/bg_sensor_box"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/imageView82"
+                        android:layout_width="68dp"
+                        android:layout_height="68dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/empty_description"
+                        android:src="@drawable/ic_sensornetwork" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView124"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:fontFamily="sans-serif"
+                    android:text="센서 연결 상태"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/frameLayout82"
+                    app:layout_constraintStart_toEndOf="@+id/frameLayout82"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout82" />
+
+                <TextView
+                    android:id="@+id/textView1213"
+                    android:layout_width="127dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="400dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView124"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:text="연결 됨" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout81"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/bg_sensor_box"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/imageView81"
+                        android:layout_width="68dp"
+                        android:layout_height="68dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/empty_description"
+                        android:src="@drawable/ic_guide_fit" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:fontFamily="sans-serif"
+                    android:text="측정 위치"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/frameLayout81"
+                    app:layout_constraintStart_toEndOf="@+id/frameLayout81"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout81" />
+
+                <TextView
+                    android:id="@+id/textView1211"
+                    android:layout_width="211dp"
+                    android:layout_height="31dp"
+                    android:layout_marginStart="350dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="25sp"
+
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView123"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/textView123"
+                    tools:text="측정 범위에서 있음" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayout83"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="220dp"
+                    android:background="@drawable/bg_sensor_box"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/imageView83"
+                        android:layout_width="68dp"
+                        android:layout_height="68dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/empty_description"
+                        android:src="@drawable/ic_person" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView125"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:fontFamily="sans-serif"
+                    android:text="사람 감지 상태"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/frameLayout83"
+                    app:layout_constraintStart_toEndOf="@+id/frameLayout83"
+                    app:layout_constraintTop_toTopOf="@+id/frameLayout83" />
+
+                <TextView
+                    android:id="@+id/textView1214"
+                    android:layout_width="141dp"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="400dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView125"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/textView125"
+                    tools:text="ACTIVE" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/sensor_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/detected"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/detected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/measurable"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/measurable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="1200dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/left_bar"
+            app:layout_constraintTop_toBottomOf="@+id/distance"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

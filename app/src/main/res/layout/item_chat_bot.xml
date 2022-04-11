@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="text"
+            type="String" />
+
+        <variable
+            name="isHighlight"
+            type="Boolean" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="18dp">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/content_description"
+            android:src="@{isHighlight ? @drawable/ic_bot_profile_focused : @drawable/ic_bot_profile_normal}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_bot_profile_focused" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/bot_name"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="3dp"
+            android:background="@{isHighlight ? @drawable/bg_talk_bot_bubble_focused : @drawable/bg_talk_bot_bubble}"
+            android:gravity="center_vertical"
+            android:paddingStart="30dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="12dp"
+            android:text="@{text}"
+            android:textColor="@color/greyish_brown_two"
+            android:textSize="13sp"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_min="32dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            tools:background="@drawable/bg_talk_bot_bubble_focused"
+            tools:text="26살이라고 답하셨는데, 맞으신가요? 맞으시면
+‘맞습니다’, 틀리시다면 ‘틀립니다’로 답해주세요.
+‘삐’ 신호음이 들리시면 말씀해주세요." />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":saltlux-talkbot" external.linked.project.path="$MODULE_DIR$/../../../saltlux-talkbot" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="Signage" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":saltlux-talkbot" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="7.1.2" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="7.1.2" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files -Xuse-experimental=kotlinx.coroutines.ExperimentalCoroutinesApi" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../saltlux-talkbot/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$MODULE_DIR$/../../../saltlux-talkbot/build/intermediates/compile_r_class_jar/debug/R.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/4745716d395eb943a37a47de7642c57b/transformed/databinding-runtime-7.1.2-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/b4c5b9e48eac92465faae1bb162dcb51/transformed/databinding-adapters-7.1.2-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.1.2/f162bebb7a9b612704c2fc8b686b6bb5a5e50411/databinding-common-7.1.2.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/772202e889f1c0ca759df5400ec06721/transformed/databinding-ktx-7.1.2-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/3b2ed425c05b38d0e0d39e420794344d/transformed/lifecycle-runtime-ktx-2.2.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.5.1-native-mt/2a69e90134c0bab7aa7e94bb1387c2c491030789/kotlinx-coroutines-android-1.5.1-native-mt.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/4.9.1/e4c20c4ce426bc4df018b60e92e0362101b448/logging-interceptor-4.9.1.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.1-native-mt/8809285ea04b602809f76a6f2ff0d5188cc0dceb/kotlinx-coroutines-core-jvm-1.5.1-native-mt.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.6.0/baf82c475e9372c25407f3d132439e4aa803b8b8/kotlin-stdlib-jdk8-1.6.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/00303bce5019323e76c011e44bd50781/transformed/lifecycle-extensions-2.2.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/e680c4208c49d18289e57e56042a466b/transformed/fragment-1.2.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/1e88804ee4a933059522bca2c3075a85/transformed/viewpager-1.0.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/93a01251c93f57c058e6951b0a7dffe3/transformed/loader-1.0.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/17892dca1f0fa0869edbee253ca1433c/transformed/activity-1.1.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/855455496eebe653fafe8c9dfeaf3f69/transformed/customview-1.0.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/1c08c7fb62aad9c4aa1f00378b897fad/transformed/core-1.3.2-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/83cab5536e438cce81c7d2704931afad/transformed/versionedparcelable-1.1.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/faba0f8073a861f8edbddc7a2b7dbba5/transformed/viewbinding-7.1.2-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/5266cf0121a88fef4f82e39a29c79719/transformed/lifecycle-process-2.2.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/471ad036e6114f00c4ac310e830cbff8/transformed/lifecycle-service-2.2.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/77aaa208d6d35974c27fd1bbce42604b/transformed/lifecycle-runtime-2.2.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/758d121eab9430d152e7ce57e0530073/transformed/lifecycle-livedata-2.2.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/db916f340c5e234cae80b5dfef6a310e/transformed/lifecycle-viewmodel-savedstate-1.0.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/5b10c30d5d688cb87052b96664e3cc0a/transformed/lifecycle-livedata-core-2.2.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/f74c003a2950a7e700884d3a441b5633/transformed/savedstate-1.0.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/1dac95d1f83919688d6ad7eaca103b49/transformed/core-runtime-2.1.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/a25ad216b545670e0330969cb9e75f2e/transformed/lifecycle-viewmodel-2.2.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.9.0/fc93484fc67ab52b1e0ccbdaa3922d8a6678e097/converter-gson-2.9.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.9.0/d8fdfbd5da952141a665a403348b74538efc05ff/retrofit-2.9.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/5.0.0-alpha.2/bf7bed2b2469e05290e258813396114ef080f574/okhttp-5.0.0-alpha.2.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.0/da6bdc87391322974a43ccc00a25536ae74dad51/kotlin-stdlib-jdk7-1.6.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/com.squareup.okio/okio/2.9.0/dcc813b08ce5933f8bdfd1dfbab4ad4bd170e7a/okio-jvm-2.9.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.0/a40b8b22529b733892edf4b73468ce598bb17f04/kotlin-stdlib-1.6.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.0/7857e365f925cfa060f941c1357cda1f8790502c/kotlin-stdlib-common-1.6.0.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/transforms-3/a1a24cabbe2013c8038f5f9f12e319cf/transformed/constraintlayout-2.1.0-api.jar:/Users/jingyaoshi/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.7/69d9503ea0a40ee16f0bcdac7e3eaf83d0fa914a/gson-2.8.7.jar:/Users/jingyaoshi/Library/Android/sdk/platforms/android-30/android.jar:/Users/jingyaoshi/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="moduleName" value="saltlux-talkbot_debug" />
+          <option name="languageVersion" value="1.6" />
+          <option name="apiVersion" value="1.6" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.6.0/aa8da3bedc53c89219b84a0b40c7419431a13e76/kotlin-compiler-embeddable-1.6.0.jar" />
+              <option value="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.0/a215a7f914d5916dc5fd2d45cea16524e0220203/kotlin-reflect-1.6.0.jar" />
+              <option value="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.0/a40b8b22529b733892edf4b73468ce598bb17f04/kotlin-stdlib-1.6.0.jar" />
+              <option value="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+              <option value="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.0/7857e365f925cfa060f941c1357cda1f8790502c/kotlin-stdlib-common-1.6.0.jar" />
+              <option value="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.6.0/55f72526ddcff6fc77d72cdf949c7e3d9bd95620/kotlin-script-runtime-1.6.0.jar" />
+              <option value="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.6.0/d6242b37f4ce6b637d10847c7558446272ec8432/kotlin-daemon-embeddable-1.6.0.jar" />
+              <option value="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
+              <option value="$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/ Android app/gradle-7.4.1/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.6.0/330f2244e9030119ab3030fc3fededc86713d9cc/jna-5.6.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../saltlux-talkbot/src/main/res;file://$MODULE_DIR$/../../../saltlux-talkbot/src/debug/res;file://$MODULE_DIR$/../../../saltlux-talkbot/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../saltlux-talkbot/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../saltlux-talkbot/src/androidTest/res;file://$MODULE_DIR$/../../../saltlux-talkbot/src/androidTestDebug/res;file://$MODULE_DIR$/../../../saltlux-talkbot/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../saltlux-talkbot/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../saltlux-talkbot/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../saltlux-talkbot/build/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../saltlux-talkbot">
+      <sourceFolder url="file://$MODULE_DIR$/../../../saltlux-talkbot/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../saltlux-talkbot/build/generated/res/resValues/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../saltlux-talkbot/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../saltlux-talkbot/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../saltlux-talkbot/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../saltlux-talkbot/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../saltlux-talkbot/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../saltlux-talkbot/src/main/res" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../saltlux-talkbot/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../saltlux-talkbot/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.13.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: kaptGeneratedClasses">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../saltlux-talkbot/build/tmp/kapt3/classes/debug" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: kaptGeneratedTestClasses">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../saltlux-talkbot/build/tmp/kapt3/classes/debugAndroidTest" />
+          <root url="file://$MODULE_DIR$/../../../saltlux-talkbot/build/tmp/kapt3/classes/debugUnitTest" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-integration:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-library:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.findbugs:jsr305:2.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup:javawriter:2.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.ext:junit:1.1.3@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-core:3.4.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:runner:1.4.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:core:1.4.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.services:storage:1.4.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.4.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.4.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:databinding-common:7.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1-native-mt" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:logging-interceptor:4.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.1-native-mt" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-gson:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:5.0.0-alpha.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.7" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:databinding-runtime:7.1.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:databinding-adapters:7.1.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:databinding-ktx:7.1.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-extensions:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.3.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:viewbinding:7.1.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-process:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-service:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout:2.1.0@aar" level="project" />
+  </component>
+</module>

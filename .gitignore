@@ -1,0 +1,10 @@
+# 项目排除路径
+/.gradle/
+/app/build/
+/app/build/intermediates/javac/demoDebug/classes/
+/appkiosk/build/
+/appkiosk/build/intermediates/javac/debug/classes/
+/buildSrc/.gradle/
+/buildSrc/build/
+/saltlux-talkbot/build/
+/saltlux-talkbot/build/intermediates/javac/debug/classes/

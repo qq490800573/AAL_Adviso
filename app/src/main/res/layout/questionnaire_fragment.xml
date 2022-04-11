@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".questionnaire.QuestionnaireFragment">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.iitp.signage.questionnaire.QuestionnaireViewModel" />
+
+        <variable
+            name="talkRecyclerAdapter"
+            type="com.iitp.signage.questionnaire.TalkAdapter" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pale_grey">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/talk_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:adapter="@{talkRecyclerAdapter}"
+            app:items="@{viewModel.talks}"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toTopOf="@+id/bottom_view"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:itemCount="4"
+            tools:listitem="@layout/item_chat_bot" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/voice_wave_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toTopOf="@+id/bottom_view">
+
+                <com.iitp.signage.view.WaveView
+                    android:id="@+id/voice_wave"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginEnd="48dp"
+                    app:amplitude="@{viewModel.voiceVolume}"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

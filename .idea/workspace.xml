@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="_device_class_tablet" />
+        <option name="nonWearDeviceLastStateName" value="landscape" />
+      </config>
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19119dc9-bb17-47ee-8c38-63d456466f6b" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_2_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_ktx_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_5_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_7_1_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_7_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_ktx_7_1_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_7_1_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_7_1_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_4_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_4_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_4_0_alpha03.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_java8_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_4_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_4_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_4_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_4_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_4_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_4_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_4_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_4_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_4_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_4_0_alpha06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_ktx_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_2_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_PhilJay_MPAndroidChart_v3_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_beta01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_2_38_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_lint_aar_2_38_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_hilt_android_2_38_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_hilt_core_2_38_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_4_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_5_0_0_alpha_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_api_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_installation_beacon_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_kotlin_dsl_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_kotlin_dsl_extensions_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_kotlin_dsl_tooling_models_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gradle_test_kit_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_ant_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_astbuilder_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_console_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_datetime_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_dateutil_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_groovydoc_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_json_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_nio_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_sql_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_templates_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_test_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__groovy_xml_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javaparser_core_3_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_reflect_1_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_1_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_common_1_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk7_1_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_jdk8_1_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_5_1_native_mt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_5_1_native_mt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Signage.buildSrc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Signage.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Signage_radar_APP1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/Signage.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/appkiosk/Signage.appkiosk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/saltlux-talkbot/Signage.saltlux-talkbot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Signage_radar_APP - 副本.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinScripting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/ITRC_demo.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/java/com/iitp/signagekiosk/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/java/com/iitp/signagekiosk/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/java/com/iitp/signagekiosk/intro/IntroFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/java/com/iitp/signagekiosk/intro/IntroFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/java/com/iitp/signagekiosk/questionnaire/QuestionnaireViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/java/com/iitp/signagekiosk/questionnaire/QuestionnaireViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/java/com/iitp/signagekiosk/vital_sensor/Sensor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/java/com/iitp/signagekiosk/vital_sensor/Sensor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/java/com/iitp/signagekiosk/vital_sensor/SensorActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/java/com/iitp/signagekiosk/vital_sensor/SensorActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/res/layout/activity_sensor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/res/layout/activity_sensor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/res/layout/dialog_disconnection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/res/layout/dialog_disconnection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/res/layout/dialog_guide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/res/layout/dialog_guide.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/res/layout/fragment_intro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/res/layout/fragment_intro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/res/layout/fragment_loading.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/res/layout/fragment_loading.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/res/layout/fragment_questionnaire.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/res/layout/fragment_questionnaire.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/res/layout/layout_result_abnormal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/res/layout/layout_result_abnormal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/res/layout/layout_result_normal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/res/layout/layout_result_normal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appkiosk/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appkiosk/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/ActivityMainBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/ActivityMainBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/ActivitySensorBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/ActivitySensorBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/DialogDisconnectionBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/DialogDisconnectionBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/DialogEmergencyBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/DialogEmergencyBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/DialogGuideBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/DialogGuideBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/FragmentIntroBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/FragmentIntroBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/FragmentLoadingBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/FragmentLoadingBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/FragmentQuestionnaireBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/FragmentQuestionnaireBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerAgeBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerAgeBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerGenderBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerGenderBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerLocationBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerLocationBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerRightOrWrongBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerRightOrWrongBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerTimesBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerTimesBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerYesOrNoBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutAnswerYesOrNoBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutResultAbnormalBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutResultAbnormalBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutResultNormalBindingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/databinding/LayoutResultNormalBindingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/generated/callback/OnClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/generated/source/kapt/debug/com/iitp/signagekiosk/generated/callback/OnClickListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/intermediates/apk_ide_redirect_file/debug/redirect.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sensor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sensor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/ConnectionStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/ConnectionStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/DisconnectionDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/DisconnectionDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/DisconnectionDialogArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/DisconnectionDialogArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/DisconnectionDialogDirections.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/DisconnectionDialogDirections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/MainViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/MainViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/NavGraphDirections.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/NavGraphDirections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/SignageKioskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/SignageKioskApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/SignageKioskApplicationKt.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/SignageKioskApplicationKt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/di/AppModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/di/AppModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/di/TalkBotModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/di/TalkBotModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/emergency/EmergencyDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/emergency/EmergencyDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/emergency/EmergencyDialogArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/emergency/EmergencyDialogArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/emergency/EmergencyDialogDirections.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/emergency/EmergencyDialogDirections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/guide/GuideDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/guide/GuideDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/guide/GuideDialogDirections.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/guide/GuideDialogDirections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/guide/GuideViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/guide/GuideViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/intro/IntroFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/intro/IntroFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/intro/IntroFragmentDirections.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/intro/IntroFragmentDirections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/loading/LoadingFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/loading/LoadingFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/loading/LoadingFragmentDirections.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/loading/LoadingFragmentDirections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/loading/LoadingViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/loading/LoadingViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/questionnaire/QuestionnaireFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/questionnaire/QuestionnaireFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/questionnaire/QuestionnaireFragmentDirections.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/questionnaire/QuestionnaireFragmentDirections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/questionnaire/QuestionnaireFragmentKt.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/questionnaire/QuestionnaireFragmentKt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/questionnaire/QuestionnaireViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/questionnaire/QuestionnaireViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/util/AutoClearedValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/util/AutoClearedValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/util/AutoClearedValueKt.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/util/AutoClearedValueKt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/util/ExtensionsKt.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/util/ExtensionsKt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/Detection.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/Detection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/PositionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/PositionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/SensorActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/SensorActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/SensorData.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/SensorData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/SensorKt.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/com/iitp/signagekiosk/vital_sensor/SensorKt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/error/NonExistentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/build/tmp/kapt3/stubs/debug/error/NonExistentClass.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/jingyaoshi/.android/avd/Pixel_5_API_30.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/Untitled" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="27j2XtlKGJykGGnvl4m1GECgow5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="Signage.appkiosk" />
+    <property name="BundleExportedModule" value="Signage.appkiosk" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/appkiosk" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Android App.appkiosk">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Signage.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appkiosk" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Signage.appkiosk" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="19119dc9-bb17-47ee-8c38-63d456466f6b" name="默认变更列表" comment="" />
+      <created>1649819218241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649819218241</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

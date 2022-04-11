@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_answer_age.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\layout_answer_age.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_loading.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\fragment_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sensor.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\activity_sensor.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_disconnection.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\dialog_disconnection.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_intro.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\fragment_intro.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_result_abnormal.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\layout_result_abnormal.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_questionnaire.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\fragment_questionnaire.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_emergency.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\dialog_emergency.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_answer_location.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\layout_answer_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_answer_times.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\layout_answer_times.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_answer_yes_or_no.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\layout_answer_yes_or_no.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_answer_gender.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\layout_answer_gender.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_guide.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\dialog_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_result_normal.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\layout_result_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_answer_right_or_wrong.xml",
+        "source": "C:\\Users\\49080\\AndroidStudioProjects\\Signage_radar_APP\\appkiosk\\src\\main\\res\\layout\\layout_answer_right_or_wrong.xml"
+    }
+]
